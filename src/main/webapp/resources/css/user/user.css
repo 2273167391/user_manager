@@ -1,0 +1,19 @@
+.search input[type='text'] {
+	width: 120px;
+	margin: 10px 0px;
+	margin-right: 10px;
+	height:25px;
+}
+
+.search input[type='button']{
+	width:55px;
+	height:25px;
+}
+
+.search input[type='button']:hover{
+	background:#E0E0E0;
+}
+
+table td,th{border-bottom: 1px dashed #CCCCCC}
+table th{cursor: pointer;}
+table tr:nth-last-child(1) td{border:none;}

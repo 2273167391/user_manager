@@ -1,0 +1,75 @@
+body{
+	background:#DEDEDE;
+}
+#login_main,#readd_main {
+	width: 370px;
+	margin: 10% auto;
+	background:#FFFFFF;
+	overflow: hidden;
+	border-radius:10px;
+	margin-bottom: 0px;
+}
+
+#readd_main{
+	width:500px;
+	margin: 5% auto;
+	margin-bottom: 0px;
+}
+
+#login_main p,#readd_main p{
+	line-height: 40px;
+	background:#5BC0DE;
+	color:#FFFFFF;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: '宋体';
+	text-indent: 10px;
+}
+
+
+
+#login_main label.error,#readd_main label.error{
+	color:red;
+	font-size: 12px;
+	width:170px;
+	margin-left:5px;
+}
+
+#login_main label.error{
+	width:90px;
+}
+
+#login_main form,#readd_main form{
+	margin:30px 20px;
+	margin-bottom: 50px;
+}
+
+#login_main label,#readd_main label {
+	width: 80px;
+	display: inline-block;
+	line-height: 45px;
+	color:#5D5D5D;
+}
+
+#login_main input[type='text'],input[type='password'],#readd_main input[type='text'],input[type='password']{
+	height:35px;
+	width:150px;
+	padding-left:5px;
+}
+
+#readd_main input[type='text'],#readd_main input[type='password']{
+	width:200px;
+}
+
+#login_main input[type='submit'],input[type='button'],#readd_main input[type='submit'],input[type='button']{
+	padding:5px 20px;
+}
+
+#login_main input[type='submit'],#readd_main input[type='submit']{
+	margin-top:10px;
+	margin-left:80px;
+}
+
+#login_main input[type='button'],#readd_main input[type='button']{
+	margin-left:3px;
+}

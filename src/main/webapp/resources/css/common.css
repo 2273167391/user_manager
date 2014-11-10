@@ -1,0 +1,99 @@
+*,h1,g2,h3,h4,h5,h6,p,li,label,div,table,td,a,b,span{
+	margin:0px;padding:0px;
+	font-size: 16px;
+	font-family: 'Aria','微软雅黑','宋体';
+	color:#5D5D5D;
+}
+
+tr{
+	height:40px;
+}
+
+td{
+	padding-left:5px;
+	font-size: 14px;
+}
+
+a{
+	text-decoration: none;
+	color:#06A6F8;
+}
+
+a:hover{
+	color:#FA3939
+}
+
+input,select,textarea{
+	border: 1px solid #CCCCCC;
+	outline: none;
+}
+
+input[type='button'],input[type='submit']{
+	cursor: pointer;
+	font-size: 14px;
+	position: relative;
+	top:-1px;
+}
+
+.btn{
+	display: inline-block;
+	padding:3px 10px;
+	background:#FFFFFF;
+	font-size: 14px;
+	color:#989898;
+	border:1px solid #CCCCCC;
+}
+
+.btn:hover{
+	background:#e2e2e2;
+	border:1px solid #CDCDCD;
+}
+
+/*所有按钮字体颜色，除开默认按钮*/
+.btn_delete,.btn_danger,.btn_update,.btn_success,.btn_show,.btn_info,.btn_warning{
+	color:#FFFFFF;
+}
+
+/*删除与错误按钮*/
+.btn_delete,.btn_danger{
+	background:#D9534F;
+	border:1px solid #D43F3A;
+}
+
+.btn_delete:hover,.btn_danger:hover{
+	background:#D33634;
+	border:1px solid #D62724;
+}
+
+/*更新与成功按钮*/
+.btn_update,.btn_success{
+	background:#5CB85C;
+	border:1px solid #4CAE4C;
+}
+
+.btn_update:hover,.btn_success:hover{
+	background:#34A534;
+	border:1px solid #249B24;
+}
+
+/*查看与信息按钮*/
+.btn_show,.btn_info{
+	background:#5BC0DE;
+	border:1px solid #46B8DA;
+}
+
+.btn_show:hover,.btn_info:hover{
+	background:#40B9DB;
+	border:1px solid #36B7D8;
+}
+
+/*警告按钮*/
+.btn_warning{
+	background:#F0AD4E;
+	border:1px solid #EEA236;
+}
+
+.btn_warning:hover{
+	background:#EA9B27;
+	border:1px solid #EA951C;
+}

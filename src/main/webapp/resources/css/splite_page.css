@@ -1,0 +1,44 @@
+#splitPageCon{
+	margin-top:10px;
+	text-align: center;
+	line-height: 30px;
+	font-size:12px;
+}
+
+#splitPageCon a{
+	font-size:12px;
+	display: inline-block;
+	width: 40px;
+	border:1px solid #cccccc;
+	border-left: none;
+	padding: 0px 5px;
+}
+
+#splitPageCon a:nth-child(1){
+	border-left: 1px solid #CCCCCC;
+}
+
+#splitPageCon a:hover,.jumpBtn:hover{
+	background:#E0E0E0;
+}
+
+#splitPageCon label{
+	margin-left:10px;
+}
+
+#splitPageCon .pageNumber{
+	height:30px;
+	text-align: center;
+	width:45px;
+}
+#splitPageCon .jumpBtn{
+	height:30px;
+	padding:0px 10px;
+	border-left:none;
+	cursor: pointer;
+}
+
+#splitPageCon .selectPage{
+	height:30px;
+	width:50px;
+}
